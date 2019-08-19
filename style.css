@@ -1,0 +1,165 @@
+*
+{
+    box-sizing: border-box;
+    font-family: lato;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+}
+
+
+section 
+{
+    
+    height: 86vh;
+    width: 76vw;
+    margin: 3% auto;
+    background-color: #fff;
+    text-align: center;
+    position: relative;
+}
+
+.player-1-panel , .player-0-panel
+{
+    width: 50%;
+    height: 100%;
+    float: left;
+    font-weight: 200
+}
+
+
+
+.active
+{
+    background-color: #e0dfdf;
+    font-weight: 400
+}
+ h2
+{
+    color: #131324;
+    font-size: 40px;
+    margin-top: 20%;
+    font-weight: 200;
+    letter-spacing: 2px;
+    font-weight: inherit
+       
+}
+h3
+{
+    font-size: 80px;
+    font-weight: 100;
+    margin-top: 0px;
+    color: #EB4D4D;
+    font-weight: inherit;
+    
+}
+
+.current-score-box
+{
+    height: 100px;
+    width: 130px;
+    background-color: #EB4D4D;
+    margin: 150px auto;
+    color: #fff;
+
+}
+.current-score-box h4
+{
+    padding-top: 20px;
+    padding-bottom: 14px;
+    font-weight: 100;
+    font-size: 18px;
+}
+
+.current-score-box h5
+{
+    font-size: 25px;
+    font-weight: 100;
+}
+
+
+
+button
+{
+        position: absolute;
+    width: 200px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #555;
+    background: none;
+    border: none;
+    font-family: Lato;
+font-size: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 300;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover { font-weight: 600; }
+button:hover i { margin-right: 20px; }
+
+button:focus {
+outline: none;
+}
+
+
+.btn-new
+{
+    top: 25px;
+}
+        
+.btn-roll
+{
+    top: 403px;
+}
+        
+.btn-hold {top: 455px}
+
+i
+{
+    
+    color: #EB4D4D;
+    margin-right: 15px;
+    font-size: 32px;
+    line-height: 1;
+    vertical-align: text-top;
+    transition: margin 0.3s;
+}
+.dice
+{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.dice-2
+{
+    position: absolute;
+    top:40%;
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.winner
+{
+    background-color: darkgrey;
+    font-family:fantasy;
+    font-weight: 800;
+    
+    
+}
+
+
+input
+{
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    width: 120px;
+    height: 40px;
+    text-transform: uppercase;
+    transform: translateX(-50%);
+    text-align: center
+}
